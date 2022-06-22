@@ -1,0 +1,2 @@
+class ConcertPassItemType
+end

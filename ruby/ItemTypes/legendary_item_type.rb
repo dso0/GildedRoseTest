@@ -1,0 +1,2 @@
+class LegendaryItemType
+end
