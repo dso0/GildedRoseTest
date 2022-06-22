@@ -1,6 +1,10 @@
 ﻿namespace GildedRoseKata.ItemTypes;
 
-public class ConjuredItemType
+public class ConjuredItemType : ItemType
 {
-  
+  public ConjuredItemType()
+  {
+    Type = "Conjured";
+    QualityModifier = 2;
+  }
 }

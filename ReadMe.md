@@ -36,3 +36,18 @@ for you).
 
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
 legendary item and as such its Quality is 80 and it never alters.
+
+Modifiers:
+
+- QualityModifier: per iteration modifier for the amount of change on Quality. Int default 1
+- DecreaseQuality: modifier to determine direction quality is changed in. Bool default true
+- MaxQuality: Global limitation on Quality value ceiling barring Legendaries. Int 50
+- MinQuality: Global limitation on Quality value floor. Int 0
+
+Known Item Types:
+
+- Legendary
+- Concert Pass
+- Conjured
+- General
+- Cheese? (Brie)

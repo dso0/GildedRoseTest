@@ -3,7 +3,8 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net6.0</TargetFramework>
-        <StartupObject>GildedRoseTests.TexttestFixture</StartupObject>
+        <StartupObject>GildedRoseTests.TextTestFixture</StartupObject>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
@@ -16,5 +17,5 @@
     <ItemGroup>
         <ProjectReference Include="..\GildedRose\GildedRose.csproj" />
     </ItemGroup>
-
+    
 </Project>
